@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  background-color: #bcbe9a;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.images {
+	display: inline-block;
+	vertical-align:top;
+	margin-top: 250px;
+	margin-bottom: 100px;
+}
+
+#image2 {
+	margin-left: 100px;
+}
+#image3 {
+	margin-right: 100px;
+}
+p,a {
+  font-family: 'Archivo', sans-serif;
+  letter-spacing: 4px;
+}
+
+a:link, a:visited, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#header {
+  position: fixed;
+  width: 1366px;
+  height: 200px;
+  float: left;
+}
+#title {
+  margin-top: 60px;
+  margin-left: 50px;
+  font-size: 30px;
+  float: left;
+}
+
+#albumArt {
+  float: left;
+}
+
+a {
+  margin-top: 65px;
+  font-size: 15px;
+  float: right;
+}
+
+#content {
+
+}
+
+@keyframes changeColor{
+  0%   {background-color: #879f8a;}
+  33%  {background-color: #878d9f;}
+  66%  {background-color: #9f8787;}
+  100% {background-color: #879f8a;}
+}
+.songs {
+  display: inline-block;
+  vertical-align:top;
+  width: 430px;
+  height: 430px;
+  background-color: #879f8a;
+  margin-right: 360px;
+  margin-left: 360px;
+  margin-top: 175px;
+  margin-bottom: 100px;
+  white-space: pre-line;
+	animation-name: changeColor;
+ 	animation-duration: 10s;
+ 	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+.songText {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25pt;
+  line-height: 1.5;
+}
+
+#song1 {
+	margin-left: 500px;
+}
+#song11 {
+	margin-right: 500px;
+}
